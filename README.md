@@ -6,7 +6,7 @@ Learning to read XML files and the use of xpath
 
 From within the project's root directory, start the game with `$ python main.py your_filename.xml your_path_expresion`. You will need to install python if you haven't already.
 
-# Examples
+## Examples
 
 ```
 python main.py bookstore.xml "//book/price | //book/price"
@@ -20,6 +20,10 @@ python main.py bookstore.xml "//title | //price"
 python main.py bookstore.xml "/bookstore/book/title | //price"
 
 ```
+
+## Notebook (demo)
+https://colab.research.google.com/drive/18zUgdQ_YgH-QREX0ckYzQHdvi_BFHEs9?usp=sharing
+
 
 ## Reference sources
 https://lxml.de/installation.html
